@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #00ffff;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00ffff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+nav {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+nav a {
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff00ff;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #00ffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    box-shadow: 0 0 20px #00ffff33;
+    text-align: left;
+}
+
+h2.section-title {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px #0088cc;
+    color: #00ffff;
+    text-align: center;
+}
+
+h3.zone-title {
+    color: #00ffff;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00ffff;
+    padding-bottom: 8px;
+}
+
+ul.equipment-list {
+    list-style: none;
+    padding: 0;
+    color: #e0f7ff;
+    font-size: 1.05rem;
+}
+
+ul.equipment-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+ul.equipment-list li strong {
+    color: #00cfff;
+}
+
+footer {
+    background-color: #111;
+    color: #888;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #00ffff;
+    margin-top: 40px;
+}
+
+
+
+.card {
+    max-width: 100%;
+    margin: 10px;
+    padding: 15px;
+}
+
+h3.zone-title {
+    font-size: 1.5rem;
+}
+
+ul.equipment-list li {
+    font-size: 1rem;
+}
